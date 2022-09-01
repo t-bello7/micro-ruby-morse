@@ -6,7 +6,32 @@ def decode_char(char)
     "-..." => "B",
     "-.-." => "C",
     "-.." => "D",
+    "." => "E",
+    "..-." => "F",
+    "--." => "G",
+    "...." => "H",
+    ".." => "I",
+    ".---" => "J",
+    "-.-" => "K",
+    ".-.." => "L",
+    "--" => "M",
+    "-." => "N",
+    "---" => "O",
+    ".--." => "P",
+    "--.-" => "Q",
+    ".-." => "R",
+    "..." => "S",
+    "-" => "T",
+    "..-" => "U",
+    "...-" => "V",
+    ".--" => "W",
+    "-..-" => "X",
+    "-.--" => "Y",
+    "--.." => "z"
   }
+
+  morse_char[char]
+end
 
 # create decode method that take in one argument of string
 # Split the string into words by checking where 3 spaces are 
