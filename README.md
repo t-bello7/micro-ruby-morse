@@ -16,11 +16,25 @@
 [Live Demo Link](https://livedemo.com)
 
 
+### Project requirements
+- Create a method to decode a Morse code character, takes a string parameter, and return the corresponding character in uppercase (e.g. `decode_char(".-")` returns `"A"`).
+- Create a method to decode an entire word in Morse code, takes a string parameter, and return the string representation. Every character in a word will be separated by a single space (e.g. `decode_word("-- -.--")` returns `"MY"`).
+- Create a method to decode the entire message in Morse code, takes a string parameter, and return the string representation. Every word will be separated by 3 spaces (e.g.
+    ```
+      decode("-- -.--   -. .- -- .")
+    ```
+  
+  returns `"MY NAME"`).
+- Reuse methods whenever possible. Make sure that your code is DRY.
+- Once your code is ready use it to decode the message from the old bottle:
+
+
+```
+      .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...
+```
+  You can use IRB for that :)
+
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
