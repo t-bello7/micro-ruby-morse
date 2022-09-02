@@ -27,8 +27,7 @@ MORSEDICT = {
   '--..' => 'Z'
 }.freeze
 def decode_char(words)
-  words_decode = words.split('   ').map { |element| element.split.map { |char| MORSEDICT[char] }.join }
-  words_decode.join(' ')
+  words.split('   ').map { |element| element.split.map { |char| MORSEDICT[char] }.join }.join(' ')
 end
 
 print decode_char('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
